@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Gerrard Melandri Muslim</title>
+    <style>
+        /* Reset dan font dasar */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            color: #333;
+            line-height: 1.6;
+            scroll-behavior: smooth;
+        }
+
+        /* Header / Hero Section */
+        header {
+            background-color: #e0f7ff;
+            padding: 50px 20px;
+            text-align: center;
+            animation: fadeIn 1s ease-in;
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        header p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        .avatar {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background-image: url('https://via.placeholder.com/150?text=Foto+Profil'); /* Placeholder untuk foto profil */
+            background-size: cover;
+            margin: 0 auto 20px;
+            border: 3px solid #b3d9ff;
+        }
+        .scroll-btn {
+            background-color: #b3d9ff;
+            color: #333;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+            transition: background-color 0.3s;
+        }
+        .scroll-btn:hover {
+            background-color: #80c1ff;
+        }
+
+        /* Section umum */
+        section {
+            padding: 40px 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            animation: fadeIn 1s ease-in;
+        }
+        section h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #007bff;
+        }
+        section p {
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+
+        /* Skill Section */
+        .skill-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .skill-card {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            width: calc(50% - 10px);
+            min-width: 200px;
+            transition: transform 0.3s;
+        }
+        .skill-card:hover {
+            transform: scale(1.05);
+        }
+        .progress-bar {
+            background-color: #e0e0e0;
+            border-radius: 5px;
+            height: 10px;
+            margin-top: 10px;
+        }
+        .progress-fill {
+            background-color: #b3d9ff;
+            height: 100%;
+            border-radius: 5px;
+            width: 30%; /* Level rendah */
+        }
+
+        /* Kontak Section */
+        .contact-list {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .contact-item a {
+            color: #007bff;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        .contact-item a:hover {
+            color: #0056b3;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #e0f7ff;
+            padding: 20px;
+            text-align: center;
+        }
+        .feedback-form {
+            max-width: 400px;
+            margin: 20px auto;
+        }
+        .feedback-form input, .feedback-form textarea, .feedback-form button {
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .feedback-form button {
+            background-color: #b3d9ff;
+            color: #333;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .feedback-form button:hover {
+            background-color: #80c1ff;
+        }
+
+        /* Animasi fade-in */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+            .skill-card {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header / Hero Section -->
+    <header id="hero">
+        <div class="avatar"></div>
+        <h1>Halo! Saya Gerrard Melandri Muslim.</h1>
+        <p>Mahasiswa IT yang sedang belajar dasar-dasar teknologi.</p>
+        <button class="scroll-btn" onclick="scrollToSection('about')">Scroll ke Tentang Saya</button>
+    </header>
+
+    <!-- Tentang Saya -->
+    <section id="about">
+        <h2>Tentang Saya</h2>
+        <p>Saya adalah mahasiswa Politeknik Negeri Lampung di jurusan Teknologi Informasi, prodi TRPL. Saya masih baru dalam dunia pemrograman dan sedang mempelajari hal-hal dasar seperti logika, algoritma, dan pembuatan website sederhana. Saya mencoba belajar secara bertahap sambil mengikuti materi kuliah dan tugas yang diberikan.</p>
+        <ul>
+            <li>Tingkat: Pemula</li>
+            <li>Fokus belajar: dasar pemrograman</li>
+            <li>Minat: teknologi dan aplikasi</li>
+            <li>Domisili: Lampung</li>
+        </ul>
+    </section>
+
+    <!-- Kenapa Saya Memilih Polinela, IT, dan TRPL -->
+    <section id="why">
+        <h2>Kenapa Saya Memilih Polinela, IT, dan TRPL</h2>
+        <p>Saya memilih Politeknik Negeri Lampung karena ingin belajar dengan cara yang lebih banyak praktik. Saya masuk jurusan Teknologi Informasi karena saya ingin mengenal dunia teknologi dari dasarnya. Untuk prodi TRPL, saya memilihnya karena saya ingin tahu bagaimana software dan aplikasi dibuat, meskipun saya masih pemula dan belum bisa banyak. Saya ingin belajar pelan-pelan dan mengembangkan kemampuan saya ke depannya.</p>
+    </section>
+
+    <!-- Skill -->
+    <section id="skills">
+        <h2>Skill</h2>
+        <div class="skill-list">
+            <div class="skill-card">
+                <h3>Logika & algoritma dasar</h3>
+                <div class="progress-bar"><div class="progress-fill"></div></div>
+            </div>
+            <div class="skill-card">
+                <h3>Flowchart / Flowgorithm</h3>
+                <div class="progress-bar"><div class="progress-fill"></div></div>
+            </div>
+            <div class="skill-card">
+                <h3>HTML dasar</h3>
+                <div class="progress-bar"><div class="progress-fill"></div></div>
+            </div>
+            <div class="skill-card">
+                <h3>CSS dasar</h3>
+                <div class="progress-bar"><div class="progress-fill"></div></div>
+            </div>
+            <div class="skill-card">
+                <h3>Problem solving dasar</h3>
+                <div class="progress-bar"><div class="progress-fill"></div></div>
+            </div>
+            <div class="skill-card">
+                <h3>Mampu belajar secara mandiri</h3>
+                <div class="progress-bar"><div class="progress-fill"></div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontak -->
+    <section id="contact">
+        <h2>Kontak</h2>
+        <div class="contact-list">
+            <div class="contact-item">
+                <span>📱</span>
+                <a href="https://wa.me/6285378119607">WhatsApp: 085378119607</a>
+            </div>
+            <div class="contact-item">
+                <span>✉️</span>
+                <a href="mailto:geradgmm11@gmail.com">Email: geradgmm11@gmail.com</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Dibuat oleh Gerrard Melandri Muslim — 2024/2025</p>
+        <form class="feedback-form" onsubmit="handleFeedback(event)">
+            <input type="text" placeholder="Nama Anda" required>
+            <input type="email" placeholder="Email Anda" required>
+            <textarea placeholder="Pesan atau Masukan" rows="4" required></textarea>
+            <button type="submit">Kirim Masukan</button>
+        </form>
+    </footer>
+
+    <script>
+        // Fungsi untuk smooth scroll ke section
+        function scrollToSection(sectionId) {
+            document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
+        }
+
+        // Fungsi untuk handle feedback form (sederhana, alert saja)
+        function handleFeedback(event) {
+            event.preventDefault();
+            alert('Terima kasih atas masukan Anda! (Ini simulasi, belum terkirim ke server.)');
+            event.target.reset();
+        }
+    </script>
+</body>
+</html>
